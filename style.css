@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Variables for colors used in the designs */
+.root{
+    --primary-color: ;
+    --backgroud-color: ;
+}
