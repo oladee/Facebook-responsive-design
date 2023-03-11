@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 /* Variables for colors used in the designs */
-.root{
+:root{
     --primary-color: #1877f2;
     --body-backgroud-color: #f0f2f5;
 }
+.container{
+    height: 100vh;
+    background-color:var(--body-backgroud-color);
+}
+form{
+    background-color:#ffffff;
+}
 @media(min-width: 1024px){
-    
+
 }
