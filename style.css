@@ -70,7 +70,7 @@ form p{
     margin: 0.75em 0 1.2em;
     text-align: center;
 }
-.createAcc{
+.createAcc, .img2{
     display: flex;
     justify-content: center;
 }
@@ -89,7 +89,7 @@ form p{
 @media(min-width: 1024px){
     .container{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 300px 500px;
     }
     .container header h1{
         text-align: left;
@@ -105,7 +105,7 @@ form p{
         display: flex;
         flex-wrap: nowrap;
     }
-    .account p{
+    .account p,  .img1, .img2{
         text-align: center;
     }
     .img:hover, .account:hover{
@@ -114,14 +114,11 @@ form p{
     .img1, .img2{
         width: 130px;
         border: 1px solid black;
-        text-align: center;
     }
     .img2{
         background-color: #f5f6f7;
         border: 1px solid black;
         height: 120px;
-        display: flex;
-        justify-content: center;
         align-items: center;
     }
     .img2 img{
