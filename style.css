@@ -17,7 +17,7 @@
 }
 .container header h1{
     text-align: center;
-    font-size: ;
+    font-size: 3em;
     color: #1877f2;
 }
 .writeUp{
@@ -25,10 +25,12 @@
 }
 form{
     background-color:#ffffff;
+    border-radius: 10px;
     width: 85%;
     padding: 20px;
     margin: 0 auto;
-    max-width: 370px;
+    max-width: 450px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
 }
 form input{
     padding: 10px 30px 20px 10px;
@@ -48,9 +50,10 @@ form input:focus{
 .btn1{
     width: 100%;
     margin-top: 10px;
-    font-size: 0.9em;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
     color: #fffcfe;
-    padding: 0.5em 0px;
+    padding: 0.625em 0px;
     background-color: #1877f2;
     outline: none;
     border: none;
@@ -60,6 +63,7 @@ form input:focus{
 form p a{
     color: #4491f6;
     font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 form p{
@@ -79,6 +83,9 @@ form p{
     border: none;
     padding: 10px;
 }
+hr{
+    /* outline: #8A8D91; */
+}
 @media(min-width: 1024px){
     .container{
         display: grid;
@@ -86,6 +93,18 @@ form p{
     }
     .container header h1{
         text-align: left;
+    }
+    .btn1{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 1.5rem;
+        color: #fffcfe;
+        padding: 0.425em 0px;
+        background-color: #1877f2;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
     }
     .writeUp{
         display: block;
