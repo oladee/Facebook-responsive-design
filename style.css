@@ -114,6 +114,7 @@ form p{
     .img1, .img2{
         width: 130px;
         border: 1px solid black;
+        border-radius: 10px;
     }
     .img2{
         background-color: #f5f6f7;
