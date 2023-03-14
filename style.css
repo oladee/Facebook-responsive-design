@@ -12,7 +12,7 @@
 .container{
     height: 100vh;
     background-color:var(--body-backgroud-color);
-    font-family: 'Jockey One', sans-serif;
+    font-family: 'Klavika', sans-serif;
     padding: 2em;
 }
 .container header h1{
