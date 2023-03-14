@@ -115,28 +115,29 @@ form p{
         display: flex;
         flex-wrap: nowrap;
     }
-    .account p,  .img1, .img2{
+    .account p, .img p{
+        padding: 10px 0px;
         text-align: center;
     }
     .img:hover, .account:hover{
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     }
-    .img1, .img2{
-        width: 130px;
+    .img1, .embodi{
+        width: 150px;
         border: 1px solid black;
         border-radius: 10px;
     }
     .img2{
         background-color: #f5f6f7;
         border: 1px solid black;
-        height: 120px;
+        height: 140px;
         align-items: center;
     }
     .img2 img{
         width: 40px;
     }
     .img1 img{
-        width: 130px;
+        width: 150px;
     }
     
  
