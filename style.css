@@ -90,10 +90,12 @@ form p{
     .container{
         display: grid;
         grid-template-columns: 400px 500px;
-        place-content: center;
+        padding-left: 20%;
+        /* place-content: center; */
     }
     .container header h1{
         text-align: left;
+        margin-bottom: 10px;
     }
     .container header h3{
         font-weight: 400;
@@ -101,9 +103,12 @@ form p{
         font-family: 'Inter', sans-serif;
     }
     .container header p{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 200;
         font-family: 'Inter', sans-serif;
+    }
+    form{
+        margin-top: 40px;
     }
     .btn1{
         font-size: 1.5rem;
@@ -148,6 +153,7 @@ form p{
         border-top-left-radius: 10px;
         width: 170px;
     }
-    
- 
+    form input{
+        font-size: 1em;
+    }
 }
