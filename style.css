@@ -29,8 +29,8 @@ form{
     width: 85%;
     padding: 20px;
     margin: 0 auto;
-    max-width: 420px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    box-shadow: 5px 5px 10px rgba(10, 3, 1, 0.25);
 }
 form input{
     padding: 10px 30px 20px 10px;
@@ -90,6 +90,7 @@ form p{
     .container{
         display: grid;
         grid-template-columns: 400px 500px;
+        place-content: center;
     }
     .container header h1{
         text-align: left;
@@ -115,29 +116,37 @@ form p{
         display: flex;
         flex-wrap: nowrap;
     }
+    a .name{
+        color: #4B4F5B;
+    }
+    a .acc{
+        color: #5477F2;
+    }
     .account p, .img p{
         padding: 10px 0px;
+        width: 100%;
+        background-color: #ffffff;
         text-align: center;
     }
     .img:hover, .account:hover{
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     }
     .img1, .embodi{
-        width: 150px;
-        border: 1px solid black;
-        border-radius: 10px;
+        width: 170px;
+        border-radius: 0px;
     }
     .img2{
         background-color: #f5f6f7;
-        border: 1px solid black;
-        height: 140px;
+        height: 158px;
         align-items: center;
     }
     .img2 img{
         width: 40px;
     }
     .img1 img{
-        width: 150px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 170px;
     }
     
  
