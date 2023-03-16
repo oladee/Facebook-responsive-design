@@ -10,7 +10,7 @@
     --body-backgroud-color: #f0f2f5;
 }
 .container{
-    height: 100vh;
+    height: 70vh;
     background-color:var(--body-backgroud-color);
     font-family: 'Klavika', sans-serif;
     padding: 2em;
