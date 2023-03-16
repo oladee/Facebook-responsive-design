@@ -47,6 +47,9 @@ form input:focus{
 .btn{
     cursor: pointer;
 }
+hr{
+    border: 1px solid c2c1c7;
+}
 .btn1{
     width: 100%;
     margin-top: 10px;
