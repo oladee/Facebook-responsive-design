@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 /* Variables for colors used in the designs */
 :root{
@@ -101,6 +102,10 @@ form p{
     outline: none;
     border: none;
     padding: 1em;
+}
+ul li{
+    display: inline-block;
+    
 }
 @media(min-width: 1024px){
     .container{
