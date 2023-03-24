@@ -105,7 +105,13 @@ form p{
 }
 ul li{
     display: inline-block;
-    
+    font-size: 0.3rem;
+    padding-right: ;
+
+}
+footer{
+    height: 30vh;
+    padding: 0.3em 1em;
 }
 @media(min-width: 1024px){
     .container{
@@ -179,5 +185,8 @@ ul li{
     }
     form input{
         font-size: 1em;
+    }
+    ul li{
+        font-size: 16px;
     }
 }
